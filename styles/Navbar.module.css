@@ -1,0 +1,117 @@
+#navContainer {
+    margin-inline: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#navTitleContainer {
+    display: flex;
+    flex-direction: row;
+    margin-top: -5px;
+}
+
+#navTitleContainer:hover {
+    cursor: pointer;
+}
+
+.navList {
+    list-style: none;
+    margin-top: 25px;
+}
+
+#navTitle {
+    font-size: 35px;
+    font-style: italic;
+}
+
+#navItemsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 38%;
+}
+
+.navItem {
+    font-size: 22px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.navItem:hover {
+   cursor: pointer;
+   color: rgb(255, 215, 166);
+   transition: 0.3s;
+}
+
+.instagram {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs, 0.75));
+    border: 2.2px solid transparent;
+    box-shadow: 0 0 0 2px;
+    border-radius: 4px;
+    width: 20px;
+    height: 20px;
+    transition: 0.3s;
+    margin-top: 1.5px;
+}
+
+.instagram::after,
+.instagram::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+}
+
+.instagram::after {
+    border: 2px solid;
+    left: 3px;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    top: 3px;
+    transition: 0.1s;
+}
+
+.instagram::before {
+    border-radius: 3px;
+    width: 2px;
+    height: 2px;
+    background: currentColor;
+    right: 1px;
+    top: 1px;
+    transition: 0.1s;
+}
+
+.instagram:hover {
+    cursor: pointer;
+    color: rgb(255, 215, 166);
+    transition: 0.3s;
+}
+
+@media (max-width: 1200px) {
+    #navItemsContainer {
+        width: 50%;
+    }
+}
+
+@media (max-width: 600px) {
+    #navContainer {
+        margin-inline: 0%;
+    }
+
+    #navTitle {
+        font-size: 20px;
+    }
+
+    #navItemsContainer {
+        width: 60%;
+    }
+
+    .navItem {
+        font-size: 14px;
+    }
+}
