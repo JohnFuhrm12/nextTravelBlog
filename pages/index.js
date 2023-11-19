@@ -11,10 +11,11 @@ export default function Home() {
       </Head>
       <div id={styles.homeImageContainer}>
         <Navbar/>
-        <img id={styles.homeOverlayedImage} src='https://res.cloudinary.com/dvmw658s9/image/upload/v1700428788/NextTravelBlog/Minimized/jlyaw7ef3eek4ch4mr6u.jpg'/>
+        <img id={styles.homeOverlayedImage} src='https://res.cloudinary.com/dvmw658s9/image/upload/v1700429370/NextTravelBlog/Minimized/kggkfu6cx5ojdar0laqd.webp'/>
+        <h1 id={styles.homeTitle}>Welcome to Viva Viajero</h1>
       </div>
       <div id={styles.homeGreetingSection}>
-        <h2 className={styles.homeHeader}>Explore Latin America with Viva Viajero</h2>
+        <h2 id={styles.homeGreetingHeader}>Explore Latin America with Viva Viajero</h2>
       </div>
     </>
   );

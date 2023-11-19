@@ -22,14 +22,28 @@
     border: 2px solid white ;
 }
 
+#homeTitle {
+    position: relative;
+    top: -35%;
+    left: 57%;
+    color: white;
+    font-size: 35px;
+    font-style: italic;
+    background-color: rgba(0, 0, 0, 0.789);
+    width: 360px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 #homeGreetingSection {
     background-color: black;
     text-align: center;
 }
 
-.homeHeader {
+#homeGreetingHeader {
     margin: 0;
-    padding-top: 10%;
+    padding-top: 8%;
     padding-bottom: 5%;
     color: white;
     font-size: 35px;
