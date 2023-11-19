@@ -46,8 +46,29 @@
 #homeGreetingHeader {
     margin: 0;
     padding-top: 8%;
-    padding-bottom: 5%;
+    padding-bottom: 2.5%;
     color: white;
     font-size: 35px;
     font-style: italic;
+}
+
+#greetingButton {
+    background-color: rgb(255, 242, 226);
+    color: black;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 5%;
+    border: none;
+    padding: 6px;
+    padding-left: 30px;
+    padding-right: 30px;
+    transition: 0.5s;
+}
+
+#greetingButton:hover {
+    background-color: rgb(255, 226, 189);
+    color: black;
+    transition: 0.5s;
+    cursor: pointer;
 }

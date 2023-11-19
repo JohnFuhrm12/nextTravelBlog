@@ -16,6 +16,7 @@ export default function Home() {
       </div>
       <div id={styles.homeGreetingSection}>
         <h2 id={styles.homeGreetingHeader}>Explore Latin America with Viva Viajero</h2>
+        <button id={styles.greetingButton}>Start Here</button>
       </div>
     </>
   );
