@@ -1,0 +1,37 @@
+#homeImageContainer {
+    background-image: url('https://res.cloudinary.com/dvmw658s9/image/upload/v1700426852/NextTravelBlog/Minimized/drhn9zbmrvaduldr9n7o.webp');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 100% 45%;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+#homeImage {
+    width: 100%;
+    margin: 0;
+    position: relative;
+}
+
+#homeOverlayedImage {
+    position: relative;
+    left: 50%;
+    top: 35%;
+    width: 600px;
+    height: 450px;
+    border: 2px solid white ;
+}
+
+#homeGreetingSection {
+    background-color: black;
+    text-align: center;
+}
+
+.homeHeader {
+    margin: 0;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    color: white;
+    font-size: 35px;
+    font-style: italic;
+}
