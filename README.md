@@ -1,1 +1,1 @@
-This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+A travel blog documenting my travels in Latin America created with Next.js and MongoDb. 
